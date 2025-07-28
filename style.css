@@ -50,8 +50,48 @@ color:white;
     font-size:60px;
 }
 .content p{
-    font-size:45;
+    font-size:18px;
     padding-left:120px;
+}
+#about{
+    background-color: rgb(58, 128, 202);
+    color:white;
+    font-size:50px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:space-between;
+    padding:20px 60px 20px 60px;
+}
+#about p{
+    font-size:18px;
+    color:white;
+    margin:10px;
+}
+#education{
+    height:300px;
+    background-color: rgb(33, 143, 233);
+    color:white;
+    font-size:50px;
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    align-items:flex-start;
+    padding:20px;
+}
+.grad{
+    margin:15px;
+    padding-left:40px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-size:15px;
+}
+#skills{
+    height:500px;
+      background-color: rgb(17, 80, 147);
+      color:white;
 }
 
 
