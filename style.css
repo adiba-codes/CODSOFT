@@ -4,14 +4,14 @@
     border :border-box;
 }
 .navbar{
-    height:50px;
-    background-color: rgb(12, 67, 67);
+    height:60px;
+    background-color: rgb(8, 28, 72);
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 .port{
-    color:white;
+    color:beige;
     margin-left:40px;
     font-size: 30px;
 }
@@ -28,8 +28,31 @@ margin-right:20px;
 }
 .port-items a{
     text-decoration:none;
-    color:white;
+    color:beige;
    
 }
+#home{
+    height:400px;
+    background-color:rgb(130, 169, 210);
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:flex-start;
+color:white;
+}
+.content{
+    padding-left:50px;
+}
+.content h4{
+    font-size:20px;
+}
+.content h1{
+    font-size:60px;
+}
+.content p{
+    font-size:45;
+    padding-left:120px;
+}
+
 
 
