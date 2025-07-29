@@ -3,12 +3,19 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     border :border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     height:60px;
     background-color: rgb(8, 28, 72);
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+a{
+    text-decoration: none;
+    color:white;
 }
 .port{
     color:beige;
@@ -38,7 +45,6 @@ display:flex;
 flex-direction: column;
 justify-content:center;
 align-items:flex-start;
-color:white;
 }
 .content{
     padding-left:50px;
@@ -55,7 +61,6 @@ color:white;
 }
 #about{
     background-color: rgb(58, 128, 202);
-    color:white;
     font-size:50px;
     height:300px;
     display:flex;
@@ -66,13 +71,12 @@ color:white;
 }
 #about p{
     font-size:18px;
-    color:white;
     margin:10px;
 }
 #education{
     height:300px;
     background-color: rgb(33, 143, 233);
-    color:white;
+    
     font-size:50px;
     display:flex;
     flex-direction:column;
@@ -83,16 +87,34 @@ color:white;
 .grad{
     margin:15px;
     padding-left:40px;
-    color:white;
     display:flex;
     justify-content:center;
     font-size:15px;
 }
 #skills{
-    height:500px;
-      background-color: rgb(17, 80, 147);
-      color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgb(58, 128, 202);
 }
+.box{
+    height:400px;
+    width:45%;
+    background-color: rgb(8, 28, 72);
+    border:1px solid white;
+    border-radius:4px;
+    padding:20px 0px 15px;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.box h2{
+    padding:7px;
+}
+.box div{
+    padding:17px 17px 17px 17px;
 
+}
 
 
