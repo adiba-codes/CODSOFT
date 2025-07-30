@@ -70,72 +70,99 @@ section{
 display:flex;
 }
 #hom{
+    color:rgb(8, 28, 72);
     position:absolute;
     top:13%;
     font-size:14px;
     padding-bottom:19%;
     padding:10px;
-    text-decoration: white solid underline;
+    text-decoration:rgb(8, 28, 72) solid underline;
 }
 .content{
     width:50%; 
     display:flex;
     padding-left:13%;
+    color:beige;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
- .content p 
- .div{
-    font-size:15px;
+ .content p {
+    font-size:20px;
+    line-height:1.8;
     flex-wrap: wrap;
 } 
+.content div ,
+.name{
+    font-size:35px;
+    font-weight: bold;
+    color:rgba(8, 28, 72,0.7);
+}
 .hero-img{
     width:50%;
     display:flex;
     align-items: center;
     justify-content: center;
 }
-img{
+#profile-img{
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:4px solid rgba(255,255,255,0.3);
+
+}
+#about{
+    background-color: rgb(130, 169, 210) ;
     height:200px;
-    width:200px;
-    /* border-radius:50%; */
-    background-image: cover;
-}
-/*#about{
-    background-color: rgb(58, 128, 202);
-    font-size:50px;
-    height:300px;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:space-between;
-    padding:20px 60px 20px 60px;
+    justify-content: flex-start;
+    align-items:center;
 }
-#about p{
-    font-size:18px;
-    margin:10px;
+ span{
+    font-size:35px;
+    font-weight:bold;
+    color:rgb(8, 28, 72);
+    text-decoration:1px solid rgb(8, 28, 72) underline;
+    margin-top:10px;
 }
+ #about p{
+margin-top:30px;
+padding:0px 70px 0 70px;
+font-size:18px;
+color:rgb(8, 28, 72);
+} 
 #education{
-    height:300px;
-    background-color: rgb(33, 143, 233);
-    
-    font-size:50px;
-    display:flex;
-    flex-direction:column;
-    justify-items:center;
-    align-items:flex-start;
-    padding:20px;
+    height:450px;
+     background-color:rgb(130, 169, 210);
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   padding:20px;
 }
 .grad{
-    margin:15px;
-    padding-left:40px;
+    background-color: rgb(8, 28, 72);
+    color:beige;
+    height:80px;
+    width:80%;
+    margin:10px;
+    border-radius:4px;
     display:flex;
-    justify-content:center;
-    font-size:15px;
+    flex-direction: column;
+    padding:19px 10px 10px 30px;
+    font-size: 20px;
+} 
+.grad p{
+    font-size:18px;
+    padding-top:10px;
 }
-#skills{
+.grad span{
+    color:beige;
+    font-size:13px;
+}
+/*#skills{
     color:white;
     background-color: rgb(181, 121, 236);
 display:flex;
@@ -147,7 +174,7 @@ align-items:center;
     border-radius:5px; 
     
 } */
-.head {
+/* .head {
     font-size: 60px;
     margin: 7px 0px 30px 0px;
     padding: 7px;
@@ -220,6 +247,4 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 7px;
-}
-
-*/
+}*/ 
