@@ -1,65 +1,109 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border :border-box;
+    border: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.navbar{
-    height:60px;
+
+.navbar {
+    height: 60px;
     background-color: rgb(8, 28, 72);
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-a{
-    text-decoration: none;
-    color:white;
-}
-.port{
-    color:beige;
-    margin-left:40px;
+
+.port {
     font-size: 30px;
+    padding-left: 10%;
 }
-.logo{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    padding-bottom:4px;
+
+.nav-items {
+    padding-right:10%;
 }
-.port-items{
-  display:flex;
-gap:30px;
-margin-right:20px;
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
 }
-.port-items a{
-    text-decoration:none;
-    color:beige;
-   
+
+.nav-items a:hover {
+    color: rgb(150, 173, 224);
+}
+
+.nav-items a {
+    text-decoration: none;
+    position: relative;
+    color: beige;
+    font-size: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    font-size: 13px;
+    margin-top: 12px;
+    opacity: 0;
+    transition: 0.3s ease;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.nav-items a:hover .tooltip {
+    opacity: 1;
+}
+
+section{
+    scroll-margin-top:80px;
 }
 #home{
     height:400px;
     background-color:rgb(130, 169, 210);
+    color:beige;
 display:flex;
-flex-direction: column;
-justify-content:center;
-align-items:flex-start;
+}
+#hom{
+    position:absolute;
+    top:13%;
+    font-size:14px;
+    padding-bottom:19%;
+    padding:10px;
+    text-decoration: white solid underline;
 }
 .content{
-    padding-left:50px;
+    width:50%; 
+    display:flex;
+    padding-left:13%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
-.content h4{
-    font-size:20px;
+
+ .content p 
+ .div{
+    font-size:15px;
+    flex-wrap: wrap;
+} 
+.hero-img{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-.content h1{
-    font-size:60px;
+img{
+    height:200px;
+    width:200px;
+    /* border-radius:50%; */
+    background-image: cover;
 }
-.content p{
-    font-size:18px;
-    padding-left:120px;
-}
-#about{
+/*#about{
     background-color: rgb(58, 128, 202);
     font-size:50px;
     height:300px;
@@ -92,61 +136,90 @@ align-items:flex-start;
     font-size:15px;
 }
 #skills{
+    color:white;
     background-color: rgb(181, 121, 236);
 display:flex;
 flex-direction:column;
 align-items:center;
 }
-.head{
-    font-size:60px;
-    margin:7px 0px 30px 0px;
-    padding:7px;
+/* .skill{
+    padding:10px;
+    border-radius:5px; 
+    
+} */
+.head {
+    font-size: 60px;
+    margin: 7px 0px 30px 0px;
+    padding: 7px;
 }
-.content,.pro{
-    display:flex;
-    flex-wrap:wrap;
+
+.content,
+.pro {
+    display: flex;
+    flex-wrap: wrap;
 }
-.box{
-    height:350px;
-    width:45%;
+
+.box {
+    height: 350px;
+    width: 45%;
     background-color: rgb(8, 28, 72);
-    margin:10px 10px 10px 10px;
-    display:flex;
-    flex-direction:column;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items:center;
-    padding:15px;
-    gap:7px;
+    align-items: center;
+    padding: 15px;
+    gap: 7px;
+    border-radius: 5px;
 }
-#projects{
-    display:flex;
-    flex-direction:column;
+
+.box:hover {
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
     background-color: aquamarine;
 }
-#projects h1{
-    padding-left:500px;
-    font-size:60px;
-    margin:20px;
+
+#projects h1 {
+    padding-left: 500px;
+    font-size: 60px;
+    margin: 20px;
 }
-.pro{
-    display:flex;
-    flex-wrap:wrap;
+
+.pro {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.card{
-    height:370px;
-    width:23%;
-    background-color: aliceblue;
-    margin:5px;
-    padding:20px 0px 15px;
-    margin-bottom:20px;
+.card {
+    height: 370px;
+    width: 23%;
+    background-color: rgb(244, 239, 239);
+    margin: 5px;
+    padding: 20px 0px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
 }
-footer{
+
+.card:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+footer {
     background-color: rgb(8, 28, 72);
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:7px;
+    padding: 7px;
 }
+
+*/
