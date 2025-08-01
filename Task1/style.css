@@ -326,11 +326,32 @@ form{
 }
 .input{
     margin:30px;
+    width:100%;
 }
 form input{
     margin:5px;
     height:24px;
+    border:none;
+    outline:none;
     width:80%;
     border-radius:4px;
-    background: rgb(227, 222, 222);
+    background: rgb(204, 212, 230);
+}
+button{
+    height:40px;
+    border-radius:7px;
+    border:none;
+    outline:none;
+    width:90%;
+    background-color: rgb(130, 169, 210);
+    color:rgb(8, 28, 72);
+    font-size:20px;
+    font-weight:bold;
+    margin:10px;
+}
+.foot{
+    margin-top:20px;
+    height:60px;
+    width:100%;
+    background-color: rgb(8, 28, 72);
 }
