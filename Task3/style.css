@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
    align-items: center;
-   background: linear-gradient(50deg,#8e0e00,#1f1c18);
+   background: linear-gradient(50deg,#0a0a0a,#3a4452);
 }
 
 .calculator{
@@ -34,6 +34,7 @@ body{
     font-size:35px;
     text-align: right;
     color:white;
+    border-radius:4px;
 }
 .btn{
     display:flex;
