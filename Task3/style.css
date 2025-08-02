@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
    align-items: center;
-   background: linear-gradient(45deg,#0a0a0a,#3a4452);
+   background: linear-gradient(50deg,#8e0e00,#1f1c18);
 }
 
 .calculator{
@@ -21,11 +21,11 @@ body{
     flex-direction: column;
     align-items: center; 
     border:1px solid #717377;
-     box-shadow:0px 3px 15px rgba(113,115,119,0.5);
+     box-shadow:0px 3px 15px rgba(255,255,255,0.5);
 }
-input{
+.display{
     background: transparent;
-     box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+     box-shadow: 0px 3px 15px rgba(225,225,225,0.1);
     border:none;
     height:80px;
     width:90%;
@@ -52,10 +52,13 @@ button{
     color:white;
     margin:10px;
     padding:20px;
-    border:1px solid #717377;
-     box-shadow:0px 3px 15px rgba(113,115,119,0.5);
+    border:1px solid rgb(160, 155, 155);
+     box-shadow:0px 3px 15px rgba(255,255,255,0.5);
      cursor:pointer;
     
+}
+button:hover{
+    border:2px solid white;
 }
 .custom{
     color:rgb(82, 234, 79);
@@ -65,4 +68,20 @@ button{
        background-color:orange;
        font-size:25px;
        font-weight:500;
+}
+@media (max-width: 500px){
+    .calculator{
+        max-height:90vh;
+        width:95vw;
+    };
+.btn{
+height:80%;
+}
+    button{
+        height:25px;
+        width:25px;
+        margin:12px;
+        font-size:0.7rem;
+
+    }
 }
