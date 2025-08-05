@@ -284,21 +284,30 @@ a {
     height:200px;
     margin-top:50px;
 }
+.center{
+    height:300px;
+    color:rgb(240, 216, 157);
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;  
+}
+.content h2{
+    letter-spacing: 1px;
+}
 .des{
     color:rgb(240, 216, 157);
     height:280px;
-    width:70%;
-    margin-left:150px;
-    padding:50px;
+    width:60%;
+padding:20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .des h4{
     height:150px;
-    width:80%;
-    margin-top:40px;
+    width:100%;
     letter-spacing: 2px;
 }
 .des button{
@@ -310,4 +319,34 @@ a {
     border-radius:8px;
     color:beige;
     font-size:15px;
+}
+.des button:hover{
+    background-color: orange;
+    transition: all 1s ease-in-out;
+}
+.coffee{
+    height:800px;
+    background-color: rgba(233, 166, 80, 0.7);
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.coffee span{
+    font-size:28px;
+    color:white;
+    text-decoration:1px solid underline;
+    padding:10px;
+    
+}
+.coffee img{
+    height:800px;
+    width:100%;
+    filter:opacity(0.4);
+}
+.coffee div{
+    height:350px;
+    width:25%;
+    background-color: rgb(251, 251, 250);
+    margin:10px;
 }
