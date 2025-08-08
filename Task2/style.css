@@ -355,7 +355,8 @@ transition: all 0.6s;
 }
 .coffee div img{
     height:250px;
-    width:100%;
+    width:85%;
+    margin-top:5px;
 }
 .coffee div button{
     height:25px;
@@ -381,7 +382,7 @@ form{
     height:300px;
     width:300px;
     background-image: url("coffee.jpeg");
-    object-fit: contain;
+    object-fit: cover;
     display:flex;
     flex-direction: column;
     padding:40px 20px;
@@ -389,7 +390,7 @@ form{
 }
 form input ,textarea{
     height:35px;
-    background: rgba(210, 209, 209, 0.5);
+    background: rgba(210, 209, 209, 0.8);
     border:1px solid white;
     color:black;
     
@@ -398,8 +399,8 @@ form input ,textarea{
     margin:7px;
 }
 form ::placeholder{
-    color:white;
-    font-weight: bold;
+    color:black;
+  
 }
 form button{
 height:40px;
@@ -407,6 +408,8 @@ width:90%;
 margin:15px;
 border-radius:7px;
 outline: none;
-border: none;
-background-color: rgba(210, 209, 209, 0.5);
+border: 1px solid white;
+background-color: rgb(90, 6, 6);
+color:white;
+
 }
