@@ -368,6 +368,27 @@ transition: all 0.6s;
     border:none;
     outline: none;
 }
+.back{
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.back p{
+    font-size:18px;
+    margin:8px;
+    color:black;
+}
+.back li{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size:18px;
+    color:black;
+    margin:10px;
+list-style:disc;
+
+}
 #contact{
 height:500px;
 width:100%;
